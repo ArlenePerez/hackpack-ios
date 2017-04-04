@@ -1,10 +1,10 @@
 # iOS Hackpack Tutorial
-*Come join us on [#hackpack-ios](https://treehacks-2016.slack.com/messages/hackpack-ios) on Slack to get help, hang out, and show off your project!*
+
 ### Overview
 
 For the iOS Hackpack, we’re going to be making a “Morning Briefing” app that displays a bunch of things you may want to see everyday. For example, a daily DJ Khaled GIF, an interesting quote, a countdown to a special day, etc. Throughout the process, you’ll learn about the basic process behind making iPhone apps, making HTTP requests, and Swift (Apple’s new programming language). 
 
-If you’ve taken CS106A/B/X, then read these tutorials over to learn a little bit about Swift:
+If you'd like, you can read these tutorials over to learn a little bit about Swift:
 http://www.raywenderlich.com/115253/swift-2-tutorial-a-quick-start
 https://learnxinyminutes.com/docs/swift/
 https://www.objc.io/issues/16-swift/swift-functions/
@@ -12,9 +12,10 @@ https://www.objc.io/issues/16-swift/swift-functions/
 ### Getting Started
 
 * If you don’t have [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12) installed on your computer, install it from the Mac App Store.
-*  ![](https://quip.com/blob/KWDAAAiFNtr/cYDpy1W8yWSlhzDQV6NHUA?a=glRLEkOMvi8b4JyhWPj0O8vtgnpCCL0soRYNZYW6mL0a)
+* ![](https://quip.com/blob/KWDAAAiFNtr/cYDpy1W8yWSlhzDQV6NHUA?a=glRLEkOMvi8b4JyhWPj0O8vtgnpCCL0soRYNZYW6mL0a)
 * Click “Create a new Xcode project” and under iOS → Application, select “ Single View Application” and fill in the following fields. After clicking “next,” pick somewhere to save the project and then press “Create.”
 * ![](https://quip.com/blob/KWDAAAiFNtr/MhH4UAKvGoKkHuaSnDcYzg?a=wqjapDGgVXIsUoxyam11a5PktsMU9TKdn56avMNTHD0a)
+
 ### CHECKPOINT #1 - GIF
 
 The first thing we’re going to do is add the necessary elements to display a GIF. Apple doesn’t natively support displaying GIFs in image views, so we’re going to add an open source framework to help. Clone or download [SwiftGif](https://github.com/bahlo/SwiftGif) (click Download Zip) and add `UIImage+Gif.swift` to your project directory by dragging the file to the left panel as so:
@@ -314,7 +315,7 @@ Last but not least, switch over to `Main.storyboard`, control, click, and drag f
 
 # Congratulations!
 
-You’ve finished the iOS Hackpack tutorial. Hopefully, you learned a little about making iPhone apps, HTTP requests, and Swift. If not, let Veeral (organizer-veeral) or Josh (organizer-josh) know in the Slack channel and we'd be down to help!
+You’ve finished the iOS Hackpack tutorial. Hopefully, you learned a little about making iPhone apps, HTTP requests, and Swift.
 
 If you want to work on the app a little more, here are some ideas on how to extend it:
 
